@@ -12,7 +12,9 @@ This script forces a player to ragdoll after performing a certain number of cons
 1. Place the script in your `resources` folder.
 2. Add the following line to your `server.cfg` to ensure the script is loaded:
 
-ensure jump_ragdoll
+```lua
+ensure m_antibunnyhop
+```
 
 ## Configuration
 You can configure the number of jumps required before triggering the ragdoll effect by modifying the `NumberJump` variable in the script:
